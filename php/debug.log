@@ -1,0 +1,18 @@
+2025-05-15 21:09:38 - Attempting to add advisor: Name=Ali , Email=math@gmail.com, Department=math
+2025-05-15 21:09:38 - Success: Advisor added successfully. Email: math@gmail.com, Password: 123
+2025-05-17 16:02:28 - Attempting to add advisor: Name=Haris , Email=Haris@gmail.com, Department=math
+2025-05-17 16:02:28 - Success: Advisor added successfully. Email: Haris@gmail.com, Password: 123
+2025-05-17 16:11:47 - Attempting to add teacher: Name=haris , Email=Haris@gmail.com, Department=math
+2025-05-17 16:11:47 - Success: Teacher added successfully. Email: Haris@gmail.com, Password: 123
+2025-05-22 07:11:32 - Attempting to add teacher: Name=Mr Ali, Email=ali@gmail.com, Department=math, Password=123
+2025-05-22 07:11:32 - Success: Teacher added successfully. Email: ali@gmail.com, Password: 123
+2025-05-22 07:24:32 - Attempting to add teacher: Name=mr, Email=mr@gmail.com, Department=math
+2025-05-22 07:24:32 - Success: Teacher added successfully. Email: mr@gmail.com, Password: 123
+2025-05-22 13:53:07 - Attempting to add advisor: Name=Mr Ali, Email=ali@gmail.com, Department=math
+2025-05-22 13:53:07 - Email already exists.
+2025-05-22 13:53:26 - Attempting to add advisor: Name=Mr Ali, Email=ali1@gmail.com, Department=math
+2025-05-22 13:53:26 - Success: Advisor added successfully. Email: ali1@gmail.com, Password: 123
+2025-05-25 19:54:58 - Attempting to add advisor: Name=Ali imran, Email=aliimran@gmail.com, Department=computerscience
+2025-05-25 19:54:58 - Success: Advisor added successfully. Email: aliimran@gmail.com, Password: password123
+2025-05-26 18:19:45 - Attempting to add advisor: Name=Rumi, Email=rumi@gmail.com, Department=computerscience
+2025-05-26 18:19:45 - Success: Advisor added successfully. Email: rumi@gmail.com, Password: 123

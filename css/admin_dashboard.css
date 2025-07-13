@@ -1,0 +1,43 @@
+/* Styles for edit form visibility and button */
+.edit-form {
+  display: none;
+  margin-top: 10px;
+}
+
+.edit-form.active {
+  display: block;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+/* Styles for dashboard cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #012048;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 10px 0 0;
+}

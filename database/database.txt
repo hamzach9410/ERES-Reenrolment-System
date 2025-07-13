@@ -1,0 +1,32 @@
+1	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	application_id Index	int(11)			No	None			Change Change	Drop Drop	
+	3	student_id Index	int(11)			No	None			Change Change	Drop Drop	
+	4	subject_name	varchar(255)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	5	semester	int(11)			No	None			Change Change	Drop Drop	
+
+selected_subjects 
+
+	1	subject_id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	student_id Index	int(11)			No	None			Change Change	Drop Drop	
+	3	subject_name	varchar(255)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	4	semester	int(11)			No	None			Change Change	Drop Drop	
+	5	result_image	varchar(255)	utf8mb4_general_ci		Yes	NULL			Change Change	Drop Drop	
+
+students 
+id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	name	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	3	father_name	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	4	email Index	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	5	class	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	6	semester	int(11)			No	None			Change Change	Drop Drop	
+	7	password	varchar(255)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	8	created_at	timestamp			No	current_timestamp()			Change Change	Drop Drop	
+	9	student_name	varchar(255)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	10	department	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	11	ag_number	varchar(255)	utf8mb4_general_ci		Yes	NULL			Change Change	Drop Drop	
+
+subjects 
+	1	department	varchar(50)	utf8mb4_general_ci		Yes	NULL			Change Change	Drop Drop	
+	2	subject_name	varchar(100)	utf8mb4_general_ci		Yes	NULL			Change Change	Drop Drop	
+	3	semester	int(11)			Yes	NULL			Change Change	Drop Drop	
+	4	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop

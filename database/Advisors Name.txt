@@ -1,0 +1,33 @@
+Admins
+
+INSERT INTO admins (name, email, password) VALUES
+('maincampus', 'maincampus@uaf.com', 'password123'),
+('depalpurcampus', 'depalpurcampus@uaf.com', 'password123'),
+('tobacampus', 'tobacampus@uaf.com', 'password123'),
+('burewalacampus', 'burewalacampus@uaf.com', 'password123');
+
+
+Advisors
+
+INSERT INTO advisors (name, email, password, department) VALUES
+('Dr. Ahsan Ali', 'ahsan.ali@university.edu', SHA2('password123', 256), 'Mathematics'),
+('Dr. Saira Khan', 'saira.khan@university.edu', SHA2('password123', 256), 'Chemistry'),
+('Dr. Imran Akhtar', 'aliimran@gmail.com', SHA2('password123', 256), 'Computer Science'),
+('Dr. Nadia Farooq', 'nadia.farooq@university.edu', SHA2('password123', 256), 'Botany'),
+('Dr. Yasir Mehmood', 'yasir.mehmood@university.edu', SHA2('password123', 256), 'Zoology'),
+('Dr. Saima Tariq', 'hussain.ch@university.edu', SHA2('password123', 256), 'Agriculture'),
+('Dr. Adnan Riaz', 'adnan.riaz@university.edu', SHA2('password123', 256), 'Food Sciences');
+
+
+
+Teachers
+
+
+INSERT INTO teachers (name, email, password, department) VALUES
+('Dr. Hassan Raza', 'hassan.raza@university.edu', SHA2('password123', 256), 'Mathematics'),
+('Dr. Sana Qureshi', 'sana.qureshi@university.edu', SHA2('password123', 256), 'Chemistry'),
+('Dr. Fahad Iqbal', 'fahad.iqbal@university.edu', SHA2('password123', 256), 'Computer Science'),
+('Dr. Rabia Akram', 'rabia.akram@university.edu', SHA2('password123', 256), 'Botany'),
+('Dr. Kamran Javed', 'kamran.javed@university.edu', SHA2('password123', 256), 'Zoology'),
+('Dr. Hina Tariq', 'hina.tariq@university.edu', SHA2('password123', 256), 'Agriculture'),
+('Dr. Usman Riaz', 'usman.riaz@university.edu', SHA2('password123', 256), 'Food Sciences');
